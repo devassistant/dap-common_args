@@ -1,0 +1,9 @@
+package_name: common_args
+version: 0.10.0dev
+license: GPLv2+
+authors: [Bohuslav Kabrda <bkabrda@redhat.com>, Tomas Radej <tradej@redhat.com>]
+homepage: https://github.com/devassistant/dap-common_args
+summary: Common arguments to be used from other assistants
+bugreports: https://github.com/devassistant/dap-common_args/issues
+description: |
+    Common arguments such as name, path etc. used in most of the assistants.
