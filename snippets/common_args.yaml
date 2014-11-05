@@ -35,6 +35,15 @@ args:
     preserved:
       'global.github_login'
 
+  gh_fork:
+    flags: [--gh-fork]
+    help: Fork the repo, assuming it's on Github. Pass your GH username as argument if it's
+          different from your system username.
+    action: [default_iff_used, '']
+    nargs: '?'
+    gui_hints:
+      default: $(whoami)
+
   docker:
     flags: [--docker]
     help: Add Dockerfile and create Docker image.
