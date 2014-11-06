@@ -1,9 +1,14 @@
 package_name: common_args
-version: 0.10.0dev
+version: 0.10.0
 license: GPLv2+
 authors: [Bohuslav Kabrda <bkabrda@redhat.com>, Tomas Radej <tradej@redhat.com>]
 homepage: https://github.com/devassistant/dap-common_args
 summary: Common arguments to be used from other assistants
 bugreports: https://github.com/devassistant/dap-common_args/issues
 description: |
-    Common arguments such as name, path etc. used in most of the assistants.
+    Common arguments used in most of the assistants.
+
+    Provided arguments: name, path, rpm, docker, eclipse
+
+    Arguments "github" and "gh_fork" are now provided by the assistant
+    "github", which you need to specify in your Assistant separately.
